@@ -19,7 +19,7 @@ const projects = [
   {
     title: "🎧stem2",
     description: "audio stem splitter using Mel-Band RoFormer model",
-    video: "/app/stem2.mp4",
+    video: "/stem2.mp4",
     github: "https://github.com/y-uv/vocalsplit",
   },
 ]
@@ -39,8 +39,8 @@ export default function Portfolio() {
               playsInline
               className="w-[450px] h-[450px] object-contain rounded-md transform transition-transform duration-500 hover:scale-105"
             />
-            <h2 className="text-2xl font-semibold">{project.title}</h2>
-            <p className="text-gray-600 text-sm">{project.description}</p>
+            <h2 className="text-2xl font-semibold font-mono">{project.title}</h2>
+            <p className="text-gray-600 text-md font-mono">{project.description}</p>
             <div className="flex space-x-4">
               <a
                 href={project.github}
