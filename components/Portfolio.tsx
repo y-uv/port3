@@ -27,8 +27,12 @@ const projects = [
 export default function Portfolio() {
   return (
     <div className="min-h-screen bg-white text-black p-8">
-      <h1 className={`text-5xl md:text-7xl lg:text-9xl font-bold mb-12 ${styles.fadeIn}`}>Yuval Smith</h1>
-      <div className={`grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 ${styles.fadeIn} ${styles.delay1}`}>
+    <h1 className={`text-5xl md:text-7xl lg:text-9xl font-bold mb-12 ${styles.fadeIn}`}>
+      <a href="https://www.linkedin.com/in/yuval-smith/" target="_blank" rel="noopener noreferrer">
+        Yuval Smith
+      </a>
+    </h1>     
+    <div className={`grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 ${styles.fadeIn} ${styles.delay1}`}>
         {projects.map((project, index) => (
           <div key={index} className={`space-y-4 ${styles.fadeIn} ${styles[`delay${index + 2}`]}`}>
             <video
