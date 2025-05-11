@@ -3,22 +3,22 @@ import styles from './Portfolio.module.css'
 
 const projects = [
   {
-    title: "🎯target10",
-    description: "standard aim trainer to test your reflexes",
+    title: "📊youtube-analytics",
+    description: "visualize youtube watch habits",
     video: "/target10.mp4",
-    github: "https://github.com/y-uv/yuvaim1",
-    live: "https://yuvaim1.netlify.app/",
+    github: "https://github.com/y-uv/youtube-analytics",
+    live: "https://1youtube-analytics.netlify.app/",
   },
   {
-    title: "🥁yuvdaw",
-    description: "simple drum sequencer with multiple kits",
+    title: "🥁yuvdaw",  
+    description: "drum machine with beat tools",
     video: "/yuvdaw.mp4",
     github: "https://github.com/y-uv/daw1",
     live: "https://yuvdaw.netlify.app/",
   },
   {
     title: "🎧stem2",
-    description: "audio stem splitter using Mel-Band RoFormer model",
+    description: "split vocals from any song",
     video: "/stem2.mp4",
     github: "https://github.com/y-uv/vocalsplit",
   },
