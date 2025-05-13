@@ -5,9 +5,8 @@ const projects = [
   {
     title: "📊youtube-analytics",
     description: "visualize youtube watch habits",
-    video: "/target10.mp4",
+    video: "/youtube-analyticsmp4.mp4",
     github: "https://github.com/y-uv/youtube-analytics",
-    live: "https://1youtube-analytics.netlify.app/",
   },
   {
     title: "🥁yuvdaw",  
